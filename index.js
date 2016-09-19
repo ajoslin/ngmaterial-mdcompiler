@@ -4,7 +4,7 @@
  * $mdCompiler service, pulled from [Angular Material](https://github.com/angular/material) and slightly modified.
  */
 
-const angular = require('angular')
+var angular = require('angular')
 
 module.exports = angular.module('$mdCompiler', [])
   .service('$mdCompiler', mdCompilerService)
