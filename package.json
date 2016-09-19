@@ -1,0 +1,33 @@
+{
+  "name": "ngmaterial-mdcompiler",
+  "main": "index.js",
+  "version": "0.0.0",
+  "description": "The $mdCompiler service ripped from angular material",
+  "license": "MIT",
+  "repository": "ajoslin/ngmaterial-mdcompiler",
+  "author": {
+    "name": "Andrew Joslin",
+    "email": "andrewtjoslin@gmail.com",
+    "url": "ajoslin.com"
+  },
+  "scripts": {
+    "test": "standard"
+  },
+  "keywords": [
+    "compile",
+    "link",
+    "scope",
+    "angular"
+  ],
+  "devDependencies": {
+    "tape": "^4.0.0",
+    "standard": "^7.0.0"
+  },
+  "files": [
+    "index.js",
+    "test.js"
+  ],
+  "dependencies": {
+    "angular": "^1.5.8"
+  }
+}
