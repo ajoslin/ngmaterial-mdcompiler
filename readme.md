@@ -14,7 +14,6 @@ $ npm install --save ngmaterial-mdcompiler
 
 ```js
 const angular = require('angular')
-const mdCompiler = require('ngmaterial-mdcompiler')
 
 angular.module('myApp', [
   require('ngmaterial-mdcompiler')
