@@ -1,7 +1,7 @@
 {
   "name": "ngmaterial-mdcompiler",
   "main": "index.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The $mdCompiler service ripped from angular material",
   "license": "MIT",
   "repository": "ajoslin/ngmaterial-mdcompiler",
