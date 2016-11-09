@@ -10,6 +10,13 @@ module.exports = angular.module('$mdCompiler', [])
   .service('$mdCompiler', mdCompilerService)
   .name
 
+mdCompilerService.$inject = [
+  '$q',
+  '$templateRequest',
+  '$injector',
+  '$compile',
+  '$controller'
+]
 function mdCompilerService ($q, $templateRequest, $injector, $compile, $controller) {
   this.compile = function (options) {
     var templateUrl = options.templateUrl
